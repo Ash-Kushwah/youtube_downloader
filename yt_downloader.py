@@ -1,8 +1,7 @@
 from pytube import YouTube
-from sys import argv
 
-# Getting the link from the command line 
-link = input("Paste here: ")
+# Getting the link from the user
+link = input("Give the link of the video you want downlaod: ")
 yt = YouTube(link)
 
 # Printing the video title and views
